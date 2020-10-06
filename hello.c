@@ -1,7 +1,11 @@
 #include <stdio.h>
-
+void message();
 int main()
 {
-    printf("Hello world !!!\n");
+   message();
     return 0;
+}
+void message()
+{
+    printf("Hello World!!!\n");
 }
